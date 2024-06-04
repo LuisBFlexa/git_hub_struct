@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.menu {
+    padding: 10px;
+}
+
+a, a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    align-items: center;
+}
+
+a:hover {
+    background-color: red;
+}
+
+#titulo {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: red;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.posts {
+    width: 660px;
+    background-color: white;
+    margin: 50px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.datapost {
+    display: block;
+    margin: 10px 0;
+    color: grey;
+}
+
+.posts img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.calendario {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.calendario th, .calendario td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.calendario th {
+    background-color: #f2f2f2;
+}
+
+.calendario td {
+    height: 80px;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+}
+
